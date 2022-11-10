@@ -11,7 +11,7 @@ public class Main {
         people.add(new Person("Петр", "Каховский", 29));
         people.add(new Person("Кондратий", "Рылеев", 31));
         people.add(new Person("Николай", "Император Самодержец Всероссийский", 30));
-        
+
         Collections.sort(people, new StatusComporator());
         int i;
         for (i = 0; i < people.size(); i++) {
